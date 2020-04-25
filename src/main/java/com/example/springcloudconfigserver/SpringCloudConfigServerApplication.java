@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
+//The above annotation is for the spring cloud config server.
 public class SpringCloudConfigServerApplication {
 
 	public static void main(String[] args) {
